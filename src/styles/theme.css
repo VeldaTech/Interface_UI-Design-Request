@@ -1,0 +1,40 @@
+:root {
+  --background: #050a12;
+  --foreground: #e8f2fa;
+  --card: #0b1420;
+  --card-foreground: #e8f2fa;
+  --primary: #b5e8ff;
+  --primary-foreground: #07131f;
+  --secondary: #111f2e;
+  --secondary-foreground: #b2c2d4;
+  --muted: #101b29;
+  --muted-foreground: #8295ac;
+  --accent: #d1bd91;
+  --accent-foreground: #080d15;
+  --border: #1a2a3c;
+  --ring: #b5e8ff;
+  --radius: 0.25rem;
+}
+
+@theme inline {
+  --font-sans: "Manrope", sans-serif;
+  --font-display: "Outfit", sans-serif;
+  --font-mono: "DM Mono", monospace;
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-border: var(--border);
+  --color-ring: var(--ring);
+  --radius-sm: var(--radius);
+  --radius-md: calc(var(--radius) + 2px);
+  --radius-lg: calc(var(--radius) + 4px);
+}

@@ -1,0 +1,10 @@
+{
+  "description": "Create stunning UI designs effortlessly with this intuitive web app, perfect for designers and teams looking to streamline their workflow and enhance collaboration.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}

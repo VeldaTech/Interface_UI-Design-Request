@@ -1,0 +1,31 @@
+- generic [ref=e4]:
+  - banner [ref=e5]:
+    - link "Return to CIEL Core" [ref=e7] [cursor=pointer]:
+      - /url: /
+  - main [ref=e10]:
+    - generic [ref=e11]:
+      - link "Back to Core" [ref=e12] [cursor=pointer]:
+        - /url: /
+      - generic [ref=e15]:
+        - generic [ref=e16]:
+          - paragraph [ref=e17]: Cognition ring
+          - heading "Conversation" [level=1] [ref=e18]
+          - paragraph [ref=e19]: A space to think with CIEL.
+        - generic [ref=e20]: DESIGN PREVIEW
+      - region "Conversation preview" [ref=e21]:
+        - generic [ref=e22]:
+          - paragraph [ref=e23]: Conversation
+          - paragraph [ref=e24]: Local preview
+        - generic [ref=e27]:
+          - generic [ref=e28]: ✳
+          - heading "What shall we explore?" [level=2] [ref=e29]
+          - paragraph [ref=e30]: Start with a thought, a question, or a plan. Your message stays in this preview; CIEL is not connected yet.
+          - generic [ref=e31]:
+            - button "Help me plan something" [ref=e32] [cursor=pointer]
+            - button "Explain an idea simply" [ref=e33] [cursor=pointer]
+            - button "Think through a problem" [ref=e34] [cursor=pointer]
+        - generic [ref=e35]:
+          - generic [ref=e36]: Message to CIEL
+          - textbox "Conversation message" [ref=e37]:
+            - /placeholder: Write a message…
+          - button "Add message to preview" [disabled] [ref=e38]
